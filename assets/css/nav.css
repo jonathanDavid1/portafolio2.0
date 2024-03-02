@@ -6,7 +6,7 @@
     grid-template-columns: repeat(3, 1fr);
 }
 .nav-item1, .nav-item2, .nav-item3 {
-    border: 1px;
+    border: 1px solid;
     padding: 10px;
 }
 .nav-item2 {

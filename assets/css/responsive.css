@@ -1,0 +1,75 @@
+:root{
+    --primary-color: black;
+    --secundary-color: blue;
+    --tertiary-color: blue;
+}
+.dark-theme {
+    --primary-color: gray;
+    --secundary-color: red;
+    --tertiary-color: blue;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    box-sizing: border-box;
+    color: var(--primary-color);
+    /* I chose this font from fonts.google.com */
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #00a1ff;
+}
+
+/* The following lines of code is for language */
+.en {
+    color: #333;
+}
+
+.es {
+    color: #00a1ff
+}
+
+.check {
+    position: relative;
+    width: 50px;
+}
+
+.check:before{
+    content: '';
+    position:absolute;
+    width: 50px;
+    height: 25px;
+    background:#333;
+    border-radius: 25px;
+}
+.check:after{
+    content: '';
+    position:absolute;
+    width: 25px;
+    height: 25px;
+    background: #fff8;
+    border-radius: 25px;
+    transition: 0.25s;
+    border: 2px solid #333;
+    box-sizing: border-box;
+}
+
+.check:checked:after{
+    left: 25px;
+    border:2px solid #00a1ff;
+}
+.check:checked:before{
+    background: #00a1ff;
+}
+
+.en img, .es img {
+    width: 30px;
+}
+
+.nav-item2-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}

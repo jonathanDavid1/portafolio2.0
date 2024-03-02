@@ -1,0 +1,11 @@
+.about-me{
+    border: 1px solid black;
+    border-color: black;
+    height: auto;
+    padding: 15px;
+    padding-left: 100px;
+}
+.button {
+    text-decoration: none;
+    color: var(--secundary-color);
+}

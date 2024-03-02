@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/nav.css">
+    <link rel="stylesheet" href="assets/css/about-me.css">
+    <link rel="stylesheet" href="assets/css/projects.css">
+    <link rel="stylesheet" href="assets/css/skills.css">
+    <link rel="stylesheet" href="assets/css/contact-me.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+    
+    <title>Porfolio</title>
+</head>
+<body class="container dark.theme">
+    <nav class="nav nav-container">
+
+        <section1 class="nav-item1"></section1>
+        <section2 class="nav-item2 nav-item2-container">
+            <div class="en">
+                <img src="/public/images/Usa.png" alt="">
+            </div>
+            <div>
+                <input type="checkbox" class="check">
+            </div>
+            
+            <div class="es"><img src="/public/images/spain.png" alt=""></div>
+        </section2>
+
+        <section3 class="nav-item3">
+            <img src="./public/images/moon.png" id="icon" alt="the icon is not working">
+        </section3>
+        
+    </nav>
+
+    <section class="about-me">
+
+        <h3>Hi welcome</h3>
+        <h1>I'm Jonathan Hernandez</h1>
+        <h1>Web Developer</h1>
+        <h3>I am a full stack web developer. I have worked on projects that use html css and javascript and I have used frameworks for frontend and backend such as react js and node js.</h3>
+
+        <a download="" href="/public/pdf/cv.pdf" class="button">Download CV</a>
+
+    </section>
+
+    <section class="projects">
+        
+    </section>
+
+    <section class="skills">
+
+    </section>
+
+    <section class="contact-me">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+            <div class="contact-left-title">
+                <h2>Contact me</h2>
+                <hr>
+            </div>
+            <input type="hidden" name="access_key" value="91f79b2f-9241-46ff-b610-fa29c5a598c4">
+            <input type="text" name="name" placeholder="Your name" class="contact-inputs" required>
+            <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+            <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+            <button type="Submit">Submit<img src="/public/images/arrow_icon.png"></button>
+        </form>
+        <div class="contact-right">
+            <img src="/public/images/right_img.png" alt="">
+        </div>
+    </section>
+
+<script >
+   let icon = document.getElementById("icon");
+   icon.onclick = function(){
+    if(document.body.classList.toggle("dark-theme")){
+        icon.src = "./public/images/sun.png"
+    }else{
+        icon.src = "./public/images/moon.png"
+    }
+   }
+</script>
+<script src="/assets/javaScript/changeLanguage.js"></script>
+</body>
+</html>

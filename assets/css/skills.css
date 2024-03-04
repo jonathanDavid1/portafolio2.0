@@ -5,7 +5,7 @@
 
 .skills {
     height: auto;
-    width: 100%;
+    border: 2px solid black;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;

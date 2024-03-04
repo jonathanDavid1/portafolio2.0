@@ -1,5 +1,5 @@
 .projects {
-    background-color: blue;
-    height: 100px;
-    width: 100%;
+    border: 2px solid black;
+    height: auto;
+    
 }

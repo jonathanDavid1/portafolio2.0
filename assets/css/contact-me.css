@@ -1,8 +1,10 @@
 .contact-me {
-    height: 100vh;
+    height: auto;
+    border: 2px solid black;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    padding: 20px;
 }
 .contact-left {
     display: flex;

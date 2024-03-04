@@ -1,9 +1,11 @@
 .about-me{
+    border: 2px solid black;
+    overflow: hidden;
     border: 1px solid black;
     border-color: black;
     height: auto;
     padding: 15px;
-    padding-left: 100px;
+    text-align: center;
 }
 .button {
     text-decoration: none;

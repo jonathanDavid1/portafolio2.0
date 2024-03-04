@@ -1,24 +1,20 @@
-.nav {
-    border: 2px solid back;
-}
 .nav-container {
+    border: 2px solid black;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
-.nav-item1, .nav-item2, .nav-item3 {
-    border: 1px solid;
-    padding: 10px;
-}
-.nav-item2 {
-    text-align: center;
-}
-.nav-item3 {
-    text-align: right;
-    padding-right: 20px;
-    padding-left: 300px;
+.nav-item1, .nav-item2, .nav-item3{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center; /* centra en horizontal */
+    align-items: center; /* centra en vertical */
+
 }
 .nav-item3 img {
-    text-align: right;
-    display: block;
-    width: 30px;
+    width: 25px;
+}
+.button {
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }

@@ -12,8 +12,10 @@
 .container {
     margin: 0;
     padding: 0;
+    width: 100%;
     display: grid;
     grid-template-rows: auto auto auto auto;
+    grid-auto-rows: auto;
     box-sizing: border-box;
     color: var(--primary-color);
     /* I chose this font from fonts.google.com */

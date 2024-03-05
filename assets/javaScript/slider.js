@@ -8,5 +8,5 @@ next.addEventListener('click', function(){
 
 prev.addEventListener('click', function(){
     let items = document.querySelectorAll('.item')
-    document.querySelector('.slide').prepend(items.length -1) /* Here the length of items = 0 */
+    document.querySelector('.slide').prepend(items[items.length -1]) /* Here the length of items = 0 */
 })

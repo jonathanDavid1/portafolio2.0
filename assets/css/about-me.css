@@ -1,4 +1,7 @@
-.about-me{
+.about-me {
+    display: relative;
+}
+.about-me-container {
     margin-top: 50px;
     height: 1fr;
     border: 2px solid black;
@@ -8,14 +11,16 @@
     padding: 30px;
     display: grid;
     gap: 10px;
+    position: relative;
+    overflow: hidden;
 }
-.about-me h3 {
+.about-me-container h3 {
     font-size:25px;
 }
-.about-me h1 {
+.about-me-container h1 {
     font-size:60px;
 }
-.about-me .button {
+.about-me-container .button {
     border: 3px solid black;
     padding: 10px;
     width: 170px;
@@ -25,11 +30,11 @@
     font-size: 25px;
 
 }
-.about-me .button:hover {
+.about-me-container .button:hover {
     background-color: brown;
 
 }
-.about-me .icon img {
+.about-me-container .icon img {
     width: 50px;
 }
 .social-media {
@@ -41,4 +46,20 @@
 .button {
     text-decoration: none;
     color: var(--secundary-color);
+}
+
+
+.parallax #rocket {
+    position: absolute;
+    width: 300px;
+    right: 0;
+    top: 400px;
+    z-index: -100;
+
+}
+@media (max-width: 600px) {
+    .parallax #rocket {
+        left: 40vw;
+        top: 500px;
+    }
 }

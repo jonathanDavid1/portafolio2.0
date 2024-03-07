@@ -31,7 +31,7 @@
 
 }
 .about-me-container .button:hover {
-    background-color: brown;
+    background-color: var(--primary-color);
 
 }
 .about-me-container .icon img {
@@ -62,4 +62,71 @@
         left: 40vw;
         top: 500px;
     }
+}
+
+.parallax #moon-img {
+    position: absolute;
+    width: 25%;
+    top: 200px;
+    left: 200px;
+    z-index: -200;
+    opacity: 0.6;
+
+}
+
+.parallax #star1 {
+    position: absolute;
+    width: 30px;
+    top: 200px;
+    left: 200px;
+    z-index: -300;
+    opacity: 0.6;
+
+}
+
+.parallax #star2 {
+    position: absolute;
+    width: 30px;
+    top: 200px;
+    left: 200px;
+    z-index: -300;
+    opacity: 0.6;
+
+}
+.parallax #star3 {
+    position: absolute;
+    width: 30px;
+    top: 200px;
+    left: 200px;
+    z-index: -300;
+    opacity: 0.6;
+
+}
+.parallax #star4 {
+    position: absolute;
+    width: 30px;
+    top: 300px;
+    left: 200px;
+    z-index: -300;
+    opacity: 0.6;
+
+}
+.parallax #star5 {
+    position: absolute;
+    width: 30px;
+    top: 250px;
+    left: 200px;
+    z-index: -300;
+    opacity: 0.6;
+
+}
+
+.parallax #star6 {
+    position: absolute;
+    width: 30px;
+    top: 140px;
+    left: 200px;
+    z-index: -300;
+    opacity: 0.6;
+
 }

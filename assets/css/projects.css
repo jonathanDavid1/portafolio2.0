@@ -68,7 +68,7 @@
     left: 100px;
     width: 300px;
     text-align: left;
-    color: #eee;
+ 
     transform: translate(0,-50%);
     font-family: system-ui;
     display: none;
@@ -164,3 +164,20 @@
     }
 
 }
+
+.projects .name1, .projects .description1 {
+    color: #D6C9F2;
+}
+
+.projects .name2, .projects .description2 {
+    color: #0D1A26;
+}
+
+.projects .name3, .projects .description3 {
+    color: #0D1A26;
+}
+ 
+.projects .name4, .projects .description4 {
+    color: black;
+}
+

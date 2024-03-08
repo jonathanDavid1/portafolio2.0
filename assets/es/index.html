@@ -17,9 +17,9 @@
     <title>Portafolio</title>
 </head>
 <body class="container dark.theme">
-    <nav class="nav nav-container">
+    <nav class="nav-container">
 
-        <section1 class="nav-item1">hola</section1>
+        <section1 class="nav-item1"></section1>
         <section2 class="nav-item2 nav-item2-container">
             <div class="en">
                 <img src="/public/images/Usa.png" alt="">
@@ -36,22 +36,110 @@
         </section3>
         
     </nav>
+ <section class="about-me">
+    <div class="about-me-container">
+        <h3>Hola Bienvenido</h3>
+        <h1>Me llamo Jonathan Hernandez</h1>
+        <h1>Desarrollador Web</h1>
+        <h3>Soy un desarrollador web full stack. He trabajado en proyectos que utilizan HTML, CSS y JavaScript. Además, tengo experiencia con frameworks front-end y back-end como React.js y Node.js.</h3>
 
-    <section class="about-me">
-        <h2>Hi welcome </h2>
+        <a download="" href="/public/pdf/cv.pdf" class="button">Descargar CV</a>
+        <section class="social-media">
+            <div class="icon"><a href="https://www.linkedin.com/in/jonathan-hernandez-3b3a89263/"><img src="/public/images/linkedin.png" alt=""></a></div>
 
+            <div class="icon"><a href="https://github.com/jonathanDavid1"><img src="/public/images/github-icon.png" alt=""></a></div>
+        </section>
+    </div>
+    <div class="parallax">
+        <img src="/public/images/rocket.png" id="rocket" alt="">
+        <img src="/public/images/moon-img.png" id="moon-img" alt="">
+        <img src="/public/images/star.png" id="star1" alt="">
+        <img src="/public/images/star.png" id="star2" alt="">
+        <img src="/public/images/star.png" id="star3" alt="">
+        <img src="/public/images/star.png" id="star4" alt="">
+        <img src="/public/images/star.png" id="star5" alt="">
+        <img src="/public/images/star.png" id="star6" alt="">
+    </div>
+</section>
+
+    <div class="title-skills">
+        <h3>Mis Habilidades</h3></div>
+        
+    <section class="skills">
+        <div class="skill"> <img src="/public/images/html.png" alt=""><h4>HTML</h4></div>
+        <div class="skill"> <img src="/public/images/css.png" alt=""><h4>CSS</h4></div>
+        <div class="skill"> <img src="/public/images/javaScript.png" alt=""><h4>javaScript</h4></div>
+        <div class="skill"> <img src="/public/images/React js.png" alt=""><h4>React js</h4></div>
+        <div class="skill"> <img src="/public/images/Redux.png" alt=""><h4>Redux</h4></div>
+        <div class="skill"> <img src="/public/images/Node js.png" alt=""><h4>Node js</h4></div>
+        <div class="skill"> <img src="/public/images/Git.png" alt=""><h4>Git</h4></div>
+        <div class="skill"> <img src="/public/images/GitHub.png" alt=""><h4>GitHub</h4></div>
+        <div class="skill"> <img src="/public/images/PostgreSQL.png" alt=""><h4>PostgreSQL</h4></div>
     </section>
 
+    <div class="title-projects"><h3>Proyectos</h3></div>
     <section class="projects">
 
-    </section>
-
-    <section class="skills">
-
+        <div class="projects-container">
+    
+            <div class="slide">
+    
+                <div class="item" style="background-image: url(/public/images/rickandmorty.png);">
+                    <div class="content">
+                        <div class="name name1">Rick and morty</div>
+                        <div class="description description1">En esta pagina puedes mirar los personajes que hay en cada dimension
+                        </div>
+                        <button>Ver mas</button>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(/public/images/weather.png);">
+                    <div class="content">
+                        <div class="name name2">Weather App</div>
+                        <div class="description description2">¿Quieres saber el clima de tu ciudad? Pues aca podrar saberlo.
+                        </div>
+                        <button>Ver mas</button>
+                    </div>
+                </div>
+                <div class="item"  style="background-image: url(/public/images/pokedex.png);">
+                    <div class="content">
+                        <div class="name name3">Pokedex</div>
+                        <div class="description description3">Busca tu pokemon favorito y aprende mas sobre el.
+                        </div>
+                        <button>Ver mas</button>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(/public/images/ecommerce.png);">
+                    <div class="content">
+                        <div class="name name4">E-commerce</div>
+                        <div class="description description4">Vende tu producto o darlo a conocer este ecommerce es una pequeña muestra de lo que podemos hacer.
+                        </div>
+                        <button>Ver mas</button>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+        <div class="button">
+            <button class="prev"><img src="/public/images/left arrow.png" alt=""></button>
+            <button class="next"><img src="/public/images/right-arrow.png" alt=""></button>
+        </div>
     </section>
 
     <section class="contact-me">
-
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+            <div class="contact-left-title">
+                <h2>Contact me</h2>
+                <hr>
+            </div>
+            <input type="hidden" name="access_key" value="91f79b2f-9241-46ff-b610-fa29c5a598c4">
+            <input type="text" name="name" placeholder="Your name" class="contact-inputs" required>
+            <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+            <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+            <button type="Submit">Submit <img src="/public/images/arrow_icon.png"></button>
+        </form>
+        <div class="contact-right">
+            <img src="/public/images/right_img.png" alt="">
+        </div>
     </section>
 
 <script >
@@ -65,5 +153,7 @@
    }
 </script>
 <script src="/assets/javaScript/changeLanguage.js"></script>
+<script src="/assets/javaScript/slider.js"></script>
+<script src="/assets/javaScript/parallax.js"></script>
 </body>
 </html>

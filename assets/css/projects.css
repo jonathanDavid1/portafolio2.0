@@ -1,17 +1,15 @@
 .title-projects h3 {
-    text-align: center;
+    text-align: center; 
+    font-size: xx-large;
 }
 
 .projects {
-    
-    border: 3px solid black;
     position: relative;
     width: 100vw;
     height: 500px;
 }
 
 .projects .projects-container {
-    border: 6px solid black;
     position: absolute;
     top: 50%;
     left: 50%;

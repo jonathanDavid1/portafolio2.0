@@ -4,9 +4,6 @@
 .about-me-container {
     margin-top: 50px;
     height: 1fr;
-    border: 2px solid black;
-    border: 1px solid black;
-    border-color: black;
     height: auto;
     padding: 30px;
     display: grid;

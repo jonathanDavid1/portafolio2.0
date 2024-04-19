@@ -1,10 +1,8 @@
 .nav-container {
-    border: 2px solid black;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
 .nav-item1, .nav-item2, .nav-item3{
-    border: 2px solid black;
     display: flex;
     justify-content: center; /* centra en horizontal */
     align-items: center; /* centra en vertical */
